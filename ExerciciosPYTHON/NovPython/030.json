@@ -1,0 +1,16 @@
+[
+    {
+        "nome": "Jeanne",
+        "arma": "Espada",
+        "ataque": 80,
+        "defesa": 60,
+        "agilidade": 90
+    },
+    {
+        "nome": "Skull Knight",
+        "arma": "Espada da Ressonancia",
+        "ataque": 90,
+        "defesa": 80,
+        "agilidade": 60
+    }
+]
