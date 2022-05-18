@@ -5,4 +5,3 @@ if 'silva' in n:
     print('O seu nome possui a palavra Silva nele.')
 else:
     print('O seu nome nao possui a palavra Silva nele.')
-    
