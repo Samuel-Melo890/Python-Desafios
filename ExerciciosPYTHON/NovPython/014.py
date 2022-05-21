@@ -4,7 +4,7 @@ from module.interface import *
 import sqlite3
 from sqlite3 import Error
 
-con = sqlite3.connect('C:\\Users\\saymu\\Desktop\\ExerciciosPYTHON\\NovPython\\Banco\\Funcionarios.sqlite')
+con = sqlite3.connect(r'C:\Users\saymu\Documents\MyRepository\Python-Desafios\ExerciciosPYTHON\NovPython\Banco\Funcionarios.sqlite')
 cursor = con.cursor()
 
 s = 'SELECT * FROM FUNCIONARIOS'

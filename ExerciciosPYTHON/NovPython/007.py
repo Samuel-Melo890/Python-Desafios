@@ -18,16 +18,16 @@ Hobby: {self.hobby.title()}')
 
 
 print('')
-user1 = Usuario('Jailson', 'Peludo', 40, 'Cidade da Delícia', 'Deixar o Oco')
+user1 = Usuario('Jayson', 'Host', 40, 'Cidade do Porto', 'Pescar')
 user1.saudacao()
 user1.descricao()
 print('')
 
-user2 = Usuario('Lloyd', 'Forger', 25, 'Berlim', 'Espião')
+user2 = Usuario('Lloyd', 'Sadman', 25, 'Berlim', 'Lojista')
 user2.saudacao()
 user2.descricao()
 print('')
 
-user3 = Usuario('Yor', 'Briar', 25, 'Berlim', 'Assassina')
+user3 = Usuario('Yasmin', 'Britânia', 25, 'Inglaterra', 'Balconista')
 user3.saudacao()
 user3.descricao()

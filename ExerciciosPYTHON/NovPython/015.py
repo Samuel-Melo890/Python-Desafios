@@ -3,7 +3,7 @@ from module.interface import *
 import sqlite3
 from sqlite3 import Error
 
-con = sqlite3.connect('C:\\Users\\saymu\\Desktop\\ExerciciosPYTHON\\NovPython\\Banco\\Dados.sqlite')
+con = sqlite3.connect(r'C:\Users\saymu\Documents\MyRepository\Python-Desafios\ExerciciosPYTHON\NovPython\Banco\Dados.sqlite')
 cursor = con.cursor()
 
 colunasA = cursor.execute('PRAGMA table_info("TabelaA")').fetchall()

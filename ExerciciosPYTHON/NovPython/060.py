@@ -4,7 +4,7 @@ from os import system
 system('cls')
 menu('Dictionary Comprehension')
 
-l = ['Jeanne', 'Skull Knight', 'Vegeta', 'Astolfo', 'Puck']
+l = ['Jeanne', 'Samuel', 'Veda', 'Astolfo', 'Pedro']
 
 d = {k: len(k.replace(' ', '')) for k in l}
 for k, v in d.items():

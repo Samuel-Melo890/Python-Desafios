@@ -1,6 +1,6 @@
 print('='*8,'Simulador de Caixa Eletrônico','='*8)
 print('-=-'*12)
-print('{:^36}'.format('Banco Jailson Mendes'))
+print('{:^36}'.format('Banco do José'))
 print('-=-'*12)
 v = int(input('Qual será o valor a ser sacado? R$'))
 c50 = c20 = c10 = c1 = 0

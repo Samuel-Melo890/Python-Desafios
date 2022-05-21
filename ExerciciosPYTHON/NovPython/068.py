@@ -6,15 +6,15 @@ pastaApp = os.path.dirname(__file__)
 def goblin_clicado():
     vg = gs_var.get()
     if vg == 1:
-        print('Goblin Slayer')
+        print('Goblin')
 def black_clicado():
     vb = bc_var.get()
     if vb == 1:
-        print('Black Clover')
+        print('Black Knight')
 def jojo_clicado():
     vj = jj_var.get()
     if vj == 1:
-        print('Jojo\'s Bizarre Adventure')
+        print('Joseph')
 
 app = Tk()
 app.title('PhotoImage')
@@ -32,13 +32,13 @@ img = PhotoImage(file=pastaApp+r'\anime_gif_sleep.gif')
 lb_img = Label(quadro1, image=img, background='lightgrey')
 lb_img.place(x=0, y=0)
 
-cb_goblins = Checkbutton(quadro1, text='Goblin Slayer', variable=gs_var, onvalue=1, offvalue=0, command=goblin_clicado)
+cb_goblins = Checkbutton(quadro1, text='Goblin', variable=gs_var, onvalue=1, offvalue=0, command=goblin_clicado)
 cb_goblins.place(x=0, y=310, width=155)
 
-cb_blackc = Checkbutton(quadro1, text='Black Clover', variable=bc_var, onvalue=1, offvalue=0, command=black_clicado)
+cb_blackc = Checkbutton(quadro1, text='Black', variable=bc_var, onvalue=1, offvalue=0, command=black_clicado)
 cb_blackc.place(x=160, y=310, width=155)
 
-cb_jojoj = Checkbutton(quadro1, text='Jojo\'s Bizarre Adventure', variable=jj_var, onvalue=1, offvalue=0, command=jojo_clicado)
+cb_jojoj = Checkbutton(quadro1, text='Joseph', variable=jj_var, onvalue=1, offvalue=0, command=jojo_clicado)
 cb_jojoj.place(x=320, y=310, width=155)
 
 app.mainloop()

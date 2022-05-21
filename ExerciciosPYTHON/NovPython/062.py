@@ -3,7 +3,7 @@ import sqlite3
 
 def imprimir():
     if vnome.get() != '' and vemail.get() != '' and vfone.get() != '' and vtexto.get('1.0', END) != '':
-        con = sqlite3.connect(r'C:\Users\saymu\Desktop\ExerciciosPYTHON\NovPython\Banco\AgendaTkinter.sqlite')
+        con = sqlite3.connect(r'C:\Users\saymu\Documents\MyRepository\Python-Desafios\ExerciciosPYTHON\NovPython\Banco\AgendaTkinter.sqlite')
         cursor = con.cursor()
         cursor.execute(f'''INSERT INTO bancoagenda (T_Name, T_Email, T_Telefone, T_Texto)
                             VALUES ("{vnome.get()}", "{vemail.get()}", "{vfone.get()}", "{vtexto.get('1.0', END)}")''')

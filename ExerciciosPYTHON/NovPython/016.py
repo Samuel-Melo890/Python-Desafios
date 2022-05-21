@@ -4,7 +4,7 @@ import sqlite3
 from sqlite3 import Error
 from time import sleep
 
-conn = sqlite3.connect('C:\\Users\\saymu\\Desktop\\ExerciciosPYTHON\\NovPython\\Banco\\Cadastro.sqlite')
+conn = sqlite3.connect(r'C:\Users\saymu\Documents\MyRepository\Python-Desafios\ExerciciosPYTHON\NovPython\Banco\Cadastro.sqlite')
 cursor = conn.cursor()
 
 while True:

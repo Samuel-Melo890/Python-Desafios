@@ -14,7 +14,7 @@ def fila_chegada(l: list|tuple):
     
     return fila
 
-l_chegada = ['Jeanne', 'Astolfo', 'Skull Knight', 'Guts', 'Samuel']
+l_chegada = ['Jeanne', 'Astolfo', 'Saint Knight', 'Gustavo', 'Samuel']
 
 fila = fila_chegada(l_chegada)
 ordem = []

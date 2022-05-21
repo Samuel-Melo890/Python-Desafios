@@ -8,7 +8,7 @@ os.system('cls')
 
 print('='*8,'Agenda no Python','='*8)
 
-conn = sqlite3.connect('C:\\Users\\saymu\\Desktop\\ExerciciosPYTHON\\NovPython\\Banco\\Agenda.sqlite')
+conn = sqlite3.connect(r'C:\Users\saymu\Documents\MyRepository\Python-Desafios\ExerciciosPYTHON\NovPython\Banco\Agenda.sqlite')
 cursor = conn.cursor()
 
 while True:

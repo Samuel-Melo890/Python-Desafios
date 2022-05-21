@@ -17,7 +17,7 @@ app.configure(background='lightgrey')
 lb_animes = LabelFrame(app, text='Animes', borderwidth=1, relief='solid')
 lb_animes.place(x=0, y=20, width=126, height=182)
 
-list_anime = ['Black Clover', 'Dragon Ball', 'Berserk', 'Fate']
+list_anime = ['Naruto', 'Dragon Ball', 'One Piece']
 
 animes_lb = Listbox(lb_animes)
 for anime in list_anime:

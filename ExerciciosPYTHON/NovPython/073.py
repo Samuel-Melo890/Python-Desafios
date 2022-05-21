@@ -14,16 +14,16 @@ fr2 = Frame(nb)
 fr3 = Frame(nb)
 
 nb.add(fr1, text='Games')
-nb.add(fr2, text='Animes e Mangás')
+nb.add(fr2, text='Animes')
 nb.add(fr3, text='Pinturas')
 
 lb1 = Label(fr1, text='Minecraft')
 lb1.pack()
 
-lb2 = Label(fr2, text='Berserk')
+lb2 = Label(fr2, text='Dragon Ball')
 lb2.pack()
 
-lb3 = Label(fr3, text='Shion Esboço')
+lb3 = Label(fr3, text='Mona Lisa')
 lb3.pack()
 
 app.mainloop()

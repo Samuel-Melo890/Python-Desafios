@@ -41,7 +41,7 @@ def show_all():
         tv.insert('', 'end', values=(c[0], c[1], c[2]))
     app.update()
 
-conn = sqlite3.connect(r'C:\Users\saymu\Desktop\ExerciciosPYTHON\NovPython\Banco\Characters.db')
+conn = sqlite3.connect(r'C:\Users\saymu\Documents\MyRepository\Python-Desafios\ExerciciosPYTHON\NovPython\Banco\Characters.db')
 cursor = conn.cursor()
 
 app = Tk()

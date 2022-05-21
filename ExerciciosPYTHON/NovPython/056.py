@@ -4,8 +4,8 @@ from os import system
 system('cls')
 menu('List Comprehension Nomes')
 
-mulheres = ['Jeanne', 'Yor', 'Gine', 'Artoria', 'Mordred', 'Grey', 'Nero', 'Juvia', 'Rukia', 'Tatsumaki']
-homens = ['Skull Knight', 'Guts', 'Bardock', 'Asta', 'Vegeta', 'Ichigo', 'Kazuma', 'Julius', 'Piccolo', 'Yami']
+mulheres = ['Jeanne', 'Lisa', 'Gina', 'Aurora', 'Monica', 'Grisália', 'Natália', 'Julia', 'Rosilene', 'Tabata']
+homens = ['Samuel', 'Gustavo', 'Bob', 'André', 'David', 'Idelfonso', 'João', 'Julius', 'Pedro', 'José']
 
 titulo('Homens 4 Letras')
 homem_4l = [nome for nome in homens if len(nome) <= 4]

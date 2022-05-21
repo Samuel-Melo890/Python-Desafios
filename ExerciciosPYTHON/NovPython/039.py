@@ -40,7 +40,7 @@ print(l)
 
 print('')
 titulo('Listas')
-nomes = ['Samuel', 'Jeanne', 'Yor', 'Lloyd', 'Anya', 'Vegeta']
+nomes = ['Samuel', 'Jeanne', 'José', 'Lloyd', 'Ana', 'Veda']
 n = [nome if not nome[-1] else (nome[0:-1].lower() + nome[-1].upper()) for nome in nomes]
 print(n)
 

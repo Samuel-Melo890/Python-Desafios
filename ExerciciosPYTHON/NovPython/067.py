@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 
 def show_msg():
-    messagebox.showinfo('Skull Knight', 'Cavaleiro Caveira')
+    messagebox.showinfo('Samuel', 'José')
 
 app = Tk()
 app.title('Frame e Label')

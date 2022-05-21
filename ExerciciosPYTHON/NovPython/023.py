@@ -29,7 +29,7 @@ class Carro():
 carros = []
 
 while True:
-    menu('Automobilística Jailsons')
+    menu('Automobilística João')
     print(f'Quantidade de Carros: {len(carros)}')
     op = options('Criar um novo carro', 'Ver informações do carro', 'Excluir carro', 'Ligar carro', 'Desligar carro', 'Listar os carros', 'Sair do programa')
     if 1 <= op <= 6:

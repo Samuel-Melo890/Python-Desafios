@@ -20,11 +20,11 @@ class Paladin():
         print(f'\033[36m{self.nome}\033[m esquiva!')
 
 p1 = Paladin('Jeanne', 'Espada', 80, 60, 90)
-p2 = Paladin('Skull Knight', 'Espada da Ressonancia', 90, 80, 60)
+p2 = Paladin('Saint Knight', 'Espada da Ressonancia', 90, 80, 60)
 
 l_json = [p1.__dict__, p2.__dict__]
 
-with open(r'C:\Users\saymu\Desktop\ExerciciosPYTHON\NovPython\030.json', 'w') as arq:
+with open(r'C:\Users\saymu\Documents\MyRepository\Python-Desafios\ExerciciosPYTHON\NovPython\030.json', 'w') as arq:
     json.dump(l_json, arq, indent = 4)
 
 p1_json = json.dumps(p1.__dict__, indent = 4)

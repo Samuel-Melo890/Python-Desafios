@@ -8,7 +8,7 @@ app = Tk()
 app.title('SpinBox')
 app.geometry('600x400')
 
-l_names = ['Jeanne', 'Astolfo', 'Skull Knight', 'Guts', 'Goku', 'Vegeta', 'Asta', 'Noelle']
+l_names = ['Jeanne', 'Astolfo', 'Samuel', 'Gustavo', 'Golias', 'Veda', 'André', 'Noelle']
 
 #sb_valores = Spinbox(app, from_=0, to=10)
 sb_valores = Spinbox(app, values=l_names)
